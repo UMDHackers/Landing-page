@@ -1,10 +1,10 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage({
-		anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage'],
-		sectionsColor: ['#7bd447', '#F2DDBE', '#93CF4E', '#F2DC4E', '#8cff66'],
+		anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage'],
+		sectionsColor: ['#7bd447', '#F2DDBE', '#93CF4E', '#F2DC4E', '#7bd447', '#8cff66'],
 		navigation: true,
 		navigationPosition: 'right',
-		navigationTooltips: ['Home', 'Main Features', 'Personal Trainers', 'Gym Owners','Subscribe today'],
+		navigationTooltips: ['Home', 'Main Features', 'Personal Trainers', 'Gym Owners','Who are we?','Subscribe today'],
 		responsive:900,
 	  	continuousVertical: false,
 		scrollOverflow: false
